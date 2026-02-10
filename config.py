@@ -5,14 +5,14 @@ load_dotenv()
 
 class Config:
     def __init__(self):
-        self.API_ID = int(getenv("API_ID", 0))
-        self.API_HASH = getenv("API_HASH")
+        self.API_ID = int(getenv("32616094", 0))
+        self.API_HASH = getenv("af7f796ad3420c7fe6d17220b0dee0c5")
 
-        self.BOT_TOKEN = getenv("BOT_TOKEN")
-        self.MONGO_URL = getenv("MONGO_URL")
+        self.BOT_TOKEN = getenv("8271417279:AAFUUFysn9UnWwI8m05LyllrtDYAn88Jil4")
+        self.MONGO_URL = getenv("mongodb+srv://hal588869_db_user:h1XR9uuemLaTyz60@cluster0.qumwxdg.mongodb.net/?appName=Cluster0")
 
-        self.LOGGER_ID = int(getenv("LOGGER_ID", 0))
-        self.OWNER_ID = int(getenv("OWNER_ID", 0))
+        self.LOGGER_ID = int(getenv("BQHxrp4Ald6OY8NOAU4uuHYv3O3IAEG-b0YYko_qTFxfi_G0JQ0gtDt90kqC064-hCTTvutMF-UKph5VeMUoopIE46kD3QQPz1HPXAe9UNTHIVPseuz2P11UwS5shD1cNjue39s49-ZzTPtGdPMo2MzTZsvS-XbzxHegam9t_Jrl8a6ZiPobDmseQ42Sny7doVdlRO-Zw680KfbGLCydKYCTaY3rGHIxFHrQ9JpL4OizxsLKAu1Sy11S04VFh48NV5hpaVS3nvPmkkNZTMuLFagzeGQv9PmdYTSId3V2_-EZRD-ORwE9OzXQASBvuZ7IlsJgPlTWSpe4b0McWTIhxgfdg7LUsQAAAAGpPgGJAA", 0))
+        self.OWNER_ID = int(getenv("7134380425", 0))
 
         self.DURATION_LIMIT = int(getenv("DURATION_LIMIT", 60)) * 60
         self.QUEUE_LIMIT = int(getenv("QUEUE_LIMIT", 20))
